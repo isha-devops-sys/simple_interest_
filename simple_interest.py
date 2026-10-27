@@ -1,11 +1,7 @@
-def calculate_simple_interest(principal,rate,time):
-    return (principal*rate*time)/180
+import sys
+ principle = float(sys.argv[1])
+ rate= float(sys.argv[2])
+ time = float(sys.argv[3])
 
-
-if __name__== "__main__":
- principle = float(input("enter the principle amount:"))
- rate= float(input("enter the rate of interst:"))
- time = loat(input("enter the time in years:"))
-
- interest= calculate_simple_interest(principal,rate,time)
+ simple_interest = principle * rate * time) / 100
  print("Simple interest=", simple_interest)
